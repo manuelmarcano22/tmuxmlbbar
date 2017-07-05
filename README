@@ -1,0 +1,7 @@
+# MLB Status bar
+
+It display a colorful changing status bar with MLB scores using data from [MySportsFeeds](https://www.mysportsfeeds.com/). 
+
+The program writes to a file that then TMUX reads every second. In the TMUX conf do:
+
+> #(cat games.txt) 
